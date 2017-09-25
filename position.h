@@ -9,6 +9,10 @@ public:
     ~Position();
 
     // Legg til get- og set-funksjoner her.
+    double getXPosition();
+    double getYPosition();
+    void setXPosition();
+    void setYPosition();
 
 private:
 

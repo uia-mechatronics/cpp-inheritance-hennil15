@@ -8,7 +8,7 @@ public:
 
     virtual ~IAnimal() {}
 
-    virtual void move() = 0;
+    virtual void move(double b) = 0;
 
 };
 

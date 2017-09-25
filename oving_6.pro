@@ -4,9 +4,11 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    position.cpp
+    position.cpp \
+    bever.cpp
 
 HEADERS += \
     ianimal.h \
     ipositionprovider.h \
-    position.h
+    position.h \
+    bever.h
